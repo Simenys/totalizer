@@ -1,5 +1,28 @@
+body {
+    height: 100vh;
+}
+
 #reg-form {
     /* width: 300px; */
     margin: auto;
     /* margin-top: 30vh; */
+}
+
+/* Check marks */
+.check-mark {
+    width: 20px;
+    margin-left: 10px;
+}
+.check-mark-list {
+    display: flex;
+}
+.red-mark {
+    background-color: red;
+    -webkit-mask: url(layout/exclamation-triangle.svg) no-repeat center;
+    mask: url(layout/exclamation-triangle.svg) no-repeat center;
+}
+.green-mark {
+    background-color: green;
+    -webkit-mask: url(layout/check-circle.svg) no-repeat center;
+    mask: url(layout/check-circle.svg) no-repeat center;
 }

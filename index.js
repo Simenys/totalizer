@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 passwordInput.addEventListener('input', function() {
     for (let i = 0; i < passwordInput.length; i++) {
-        if
+        
     }
 })
 

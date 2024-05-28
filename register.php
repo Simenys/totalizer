@@ -23,7 +23,7 @@
             <div class="row gy-3 gy-md-4 overflow-hidden">
                 <div class="col-12">
                 <label for="email" class="form-label">Username <span class="text-danger">*</span></label>
-                <input type="email" class="form-control" name="email" id="email" required>
+                <input type="username" class="form-control" name="username" id="username" required>
               </div>
               <div class="col-12">
                 <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
@@ -38,16 +38,16 @@
               <div>
                 <ul>
                     <div class="check-mark-list">
-                        <li>At least 8 characters</li><img class="check-mark red-mark" src="layout/exclamation-triangle.svg" alt="failed_check_mark"><img class="check-mark green-mark" src="layout/check-circle.svg" style="display: none" alt="pass_check_mark">
+                        <li>At least 8 characters</li><img class="check-mark red-mark" id="1st-red-mark" src="layout/exclamation-triangle.svg" alt="failed_check_mark"><img class="check-mark green-mark" id="1st-green-mark" src="layout/check-circle.svg" style="display: none" alt="pass_check_mark">
                     </div>
                     <div class="check-mark-list">
-                        <li>A mix of upper-case and lower-case characters</li><img class="check-mark red-mark" src="layout/exclamation-triangle.svg" alt="failed_check_mark"><img class="check-mark green-mark" src="layout/check-circle.svg" style="display: none" alt="pass_check_mark">
+                        <li>A mix of upper-case and lower-case characters</li><img class="check-mark red-mark" id="2nd-red-mark" src="layout/exclamation-triangle.svg" alt="failed_check_mark"><img class="check-mark green-mark" id="2nd-green-mark" style="display: none"  src="layout/check-circle.svg"  alt="pass_check_mark">
                     </div>
                     <div class="check-mark-list">
-                        <li>At least one number</li><img class="check-mark red-mark" src="layout/exclamation-triangle.svg" alt="failed_check_mark"><img class="check-mark green-mark" src="layout/check-circle.svg" style="display: none" alt="pass_check_mark">
+                        <li>At least one number</li><img class="check-mark red-mark" id="3rd-red-mark" src="layout/exclamation-triangle.svg" alt="failed_check_mark"><img class="check-mark green-mark" id="3rd-green-mark" src="layout/check-circle.svg" style="display: none" alt="pass_check_mark">
                     </div>
                     <div class="check-mark-list">
-                        <li>At least one special character e.g - !&*</li><img class="check-mark red-mark" src="layout/exclamation-triangle.svg" alt="failed_check_mark"><img class="check-mark green-mark" src="layout/check-circle.svg" style="display: none" alt="pass_check_mark">
+                        <li>At least one special character e.g - !&*</li><img class="check-mark red-mark" id="4th-red-mark" src="layout/exclamation-triangle.svg" alt="failed_check_mark"><img class="check-mark green-mark" id="4th-green-mark" src="layout/check-circle.svg" style="display: none" alt="pass_check_mark">
                     </div>
                 </ul>
               </div>
